@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Alice", serif;
+}
+
+:root {
+    /*Surface Colors*/
+
+    --background-color: #573824;
+    --surface-color: F0E8C2;
+
+    /*Text colors*/
+
+    --text-color-primary: #291B1A; 
+    --text-color-secondary: #573A37;
+    --text-color-on-bg: #F0E8C2;
+
+    /*Fonts*/
+
+    --font-heading1: 40px/140%;
+    --font-heading2: 24px/150%;
+    --font-paragraph: 16px/150%;
+}

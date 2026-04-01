@@ -35,6 +35,19 @@ Projeto desenvolvido para praticar responsividade e fundamentos de CSS, utilizan
 
 ---
 
+### 🌍 Local Turístico
+
+Projeto de uma página de destino turístico desenvolvido com HTML e CSS, com foco em semântica, organização de conteúdo e estilização de layout.
+
+**Tecnologias:**
+
+* HTML5
+* CSS3
+
+**Status:** ✅ Finalizado
+
+---
+
 ## 🎯 Objetivo
 
 Consolidar conhecimentos em HTML e CSS através de projetos práticos, evoluindo na construção de interfaces modernas e responsivas.
@@ -43,5 +56,5 @@ Consolidar conhecimentos em HTML e CSS através de projetos práticos, evoluindo
 
 ## 👨‍💻 Autor
 
-Wemerson Matheus
+Wemerson Matheus  
 Desenvolvedor Front-end & Freelancer

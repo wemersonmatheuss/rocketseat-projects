@@ -38,16 +38,16 @@ Este projeto ajudou a:
 
 ## 🖥️ Como rodar o projeto localmente
 
-1. Acesse a pasta do projeto:
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/wemersonmatheuss/receita.git](https://github.com/wemersonmatheuss/rocketseat-projects/tree/main/html-css/receita-html-css)
 
+2. Acesse a pasta do projeto:
    ```bash
    cd receita-html-css
-   ```
 
-2. Abra o arquivo `index.html` no navegador
-
-   * Clique duas vezes no arquivo
-   * Ou use a extensão **Live Server** no VS Code
+3. Abra o arquivo index.html no navegador
+   3.1 Clique duas vezes no arquivo index.html, ou use a extensão *Live Server* no VS Code
 
 ---
 

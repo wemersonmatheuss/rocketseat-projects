@@ -19,7 +19,6 @@ Aqui você encontrará projetos práticos, desafios e estudos focados em desenvo
 * 📁 javascript
 * 📁 react
 * 📁 node
-* 📁 desafios
 
 ## 🎯 Objetivo
 

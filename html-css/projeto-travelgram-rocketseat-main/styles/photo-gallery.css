@@ -1,0 +1,13 @@
+.photo-gallery {
+    display: flex;
+    padding-top: 24px;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+
+    & img {
+        width: 286px;
+        height: 286px;
+    }
+}

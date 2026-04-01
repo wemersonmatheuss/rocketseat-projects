@@ -1,0 +1,65 @@
+nav {
+    display: flex;
+    padding: 20px 32px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--surface-color);
+
+    width: 100vw;
+
+    & .nav-items {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        & .magnify {
+            background-image: url('./../images/svg/MagnifyingGlass.svg');
+            width: 24px;
+            height: 24px;
+            background-position: center;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+
+        & .magnify:hover {
+            background-image: url('./../images/svg/MagnifyingGlassHover.svg');
+            transition: 0.2s ease-in-out;
+        }
+
+        & a {
+            display: flex;
+            padding: 4px;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-color-secondary);
+            text-decoration: none;
+        }
+
+        & a:hover {
+            color: var(--brand-color);
+            transition: 0.2s ease-in-out;
+            text-decoration: underline;
+            
+        }
+
+        & img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    nav {
+        padding: 16px;
+        width: 100vw;
+        & .nav-items {
+
+            & a {
+                display: none;
+            }
+        }
+    }
+}

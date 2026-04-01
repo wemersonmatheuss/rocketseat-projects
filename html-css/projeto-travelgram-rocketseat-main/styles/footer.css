@@ -1,0 +1,36 @@
+footer {
+    display: flex;
+    padding: 24px 32px;
+    justify-content: space-between;
+    align-items: center;
+
+    & p {
+        color: var(--text-color-secondary);
+        font: var(--font-paragraph-md);
+    }
+
+    & .links {
+        display: flex;
+        height: 24px;
+        align-items: center;
+        gap: 16px;
+
+        & a {
+            color: var(--text-color-secondary);
+            font: var(--font-paragraph-sm);
+            text-decoration: none;
+        }
+
+        & a:hover {
+            color: var(--brand-color);
+            transition: 0.2s ease-in-out;
+            text-decoration: underline;
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    footer {
+        flex-direction: column;
+    }
+}

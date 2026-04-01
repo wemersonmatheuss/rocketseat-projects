@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -20,10 +19,105 @@ body {
     --text-color-primary: #291B1A; 
     --text-color-secondary: #573A37;
     --text-color-on-bg: #F0E8C2;
+}
 
-    /*Fonts*/
+.container {
+    height: 100%;
+    width: 100vw;
 
-    --font-heading1: 40px/140%;
-    --font-heading2: 24px/150%;
-    --font-paragraph: 16px/150%;
+    background-image: 
+        linear-gradient(rgba(87, 56, 36, 0.7), rgba(87, 56, 36, 0.7)),
+        url('./images/main-image.png')
+    ;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 48px;
+
+    & .footer {
+        margin-top: 28px;
+
+        color: var(--text-color-on-bg);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+    }
+}
+
+main {
+    background-color: var(--text-color-on-bg);
+
+    width: 50%;
+
+    padding: 24px;
+    border-radius: 24px;
+
+    & img {
+        width: 100%;
+    }
+
+    & .text {
+        padding: 24px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        & .title {
+            & h1 {
+            font-size: 40px;
+            line-height: 140%;
+            font-weight: 500;
+            }
+
+            & p {
+                font-size: 16px;
+                line-height: 150%;
+                font-weight: 500;
+            }
+
+            & .hour {
+                margin-top: 12px;
+            }
+        }
+
+        & .ingredients {
+            & h2 {
+                font-size: 24px;
+                line-height: 150%;
+                font-weight: 500;
+            }
+
+            & ul {
+                padding-left: 24px;
+
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 150%;
+            }
+        }
+
+        & .preparation {
+            & h2 {
+                font-size: 24px;
+                line-height: 150%;
+                font-weight: 500;
+            }
+
+            & p {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 150%;
+            }
+        }
+    }
 }

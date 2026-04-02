@@ -48,6 +48,19 @@ Projeto de uma página de destino turístico desenvolvido com HTML e CSS, com fo
 
 ---
 
+### 💼 Portfolio Dev
+
+Projeto de um portfólio pessoal desenvolvido como estudo de HTML e CSS, com foco na estruturação semântica, estilização e apresentação profissional de projetos.
+
+**Tecnologias:**
+
+* HTML5
+* CSS3
+
+**Status:** ✅ Finalizado
+
+---
+
 ## 🎯 Objetivo
 
 Consolidar conhecimentos em HTML e CSS através de projetos práticos, evoluindo na construção de interfaces modernas e responsivas.

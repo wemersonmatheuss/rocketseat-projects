@@ -43,6 +43,7 @@ Apesar de simples, esse projeto é excelente para:
 
 ```bash
 git clone https://github.com/wemersonmatheuss/rocketseat-projects.git
+```
 
 2. Acesse a pasta do projeto:
 

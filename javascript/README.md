@@ -16,7 +16,7 @@ Projeto de um conversor de moedas desenvolvido com JavaScript, com foco no apren
 * CSS3
 * JavaScript
 
-**Status:** Em andamento
+**Status:** ✅ Finalizado
 
 ---
 

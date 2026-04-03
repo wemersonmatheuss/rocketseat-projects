@@ -26,5 +26,233 @@
     --label: 600 16px/20px 'Inter', sans-serif;
     --paragraph: 500 16px/20px 'Inter', sans-serif;
     --link: 500 14px/16px 'Inter', sans-serif;
+    --input : 400 16px 'Inter', sans-serif;
 
+}
+
+body {
+    background-color: var(--background-primary);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 25px;
+
+    & img {
+        width: 156px;
+        height: 40px;
+    }
+}
+
+main {
+    margin-top: 62px;
+
+    & .title {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        & a {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            color: var(--color-brand);
+
+            font: var(--link);
+
+            & img {
+                width: 14px;
+                height: 14px;
+            }
+        }
+
+        & h1 {
+            color: var(--content-primary);
+
+            font: var(--title);
+        }
+    }
+
+    & .submit {
+        margin-top: 44px;
+
+        display: flex;
+        gap: 16px;
+
+        & input {
+            width: 451px;
+            border: 2px solid var(--border-primary);
+            border-radius: 12px;
+
+            background-color: var(--background-secondary);
+
+            padding: 11px 18px;
+
+            outline: none;
+        }
+
+        & input::placeholder {
+            color: var(--content-tertiary);
+
+            font: var(--input);
+        }
+
+        & input:hover {
+            border: 2px solid var(--border-hover);
+        }
+
+        & input:focus {
+            outline: none;
+            
+            border: 2px solid var(--color-brand);
+        }
+
+        & input:focus::placeholder {
+            color: var(--content-primary);
+        }
+
+        & button {
+            padding: 12px 24px;
+
+            background-color: var(--color-brand);
+
+            border: none;
+            border-radius: 12px;
+
+            color: var(--always-white);
+
+            font: var(--label);
+
+            cursor: pointer;
+        }
+
+        & button:hover {
+            transition: 0.8s;
+            background-color: var(--color-brand-hover);
+        }
+    }
+
+    & .itens {
+        width: 627px;
+
+        margin-top: 41px;
+       
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        & .item {
+            width: 100%;
+            height: 49px;
+
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            background-color: var(--background-secondary);
+
+            padding: 8px 12px;
+
+            border-radius: 12px;
+
+            & .left {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+
+                & p {
+                    color: var(--content-secondary);
+
+                    font: var(--paragraph);
+                }
+
+                & input[type="checkbox"] {
+                    appearance: none;
+
+                    position: relative;
+                    
+                    width: 16px;
+                    height: 16px;
+
+                    border: 1px solid var(--border-primary);
+                    border-radius: 6px;
+                }
+
+                & input[type="checkbox"]:hover {
+                    border: 1px solid var(--border-hover);
+                }
+
+                & input[type="checkbox"]:checked {
+                    transition: 0.5s;
+
+                    background-color: var(--color-brand);
+                }
+
+                & input[type="checkbox"]:checked::after {
+                    content: "✔";
+                    color: white;
+                    font-size: 10px;
+                    position: absolute;
+                    top: 0;
+                    left: 3px;
+                }
+            }
+  
+
+            & img {
+                width: 16px;
+                height: 16px;
+
+                cursor: pointer;
+            }
+        }
+    }
+
+    & .alert {
+        width: 627px;
+
+        margin-top: 35px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        background-color: var(--color-danger);
+
+        border-radius: 12px;
+
+        padding: 12px;
+
+        & .left {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            & p {
+                color: var(--always-white);
+
+                font: var(--label);
+            }
+
+            & img {
+               width: 18px;
+               height: 18px; 
+            }
+        }
+    }
 }

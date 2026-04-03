@@ -258,3 +258,33 @@ main {
         }
     }
 }
+
+@media screen and (max-width: 900px) {
+    body {
+        padding: 20px;
+    }
+
+    main {
+        width: 100%;
+
+        & .submit {
+            flex-direction: column;
+
+            & input {
+                width: 100%;
+            }
+
+            & button {
+                width: 100%;
+            }
+        }
+
+        & .itens {
+            width: 100%;
+        }
+
+        & .alert {
+            width: 100%;
+        }
+    }
+}

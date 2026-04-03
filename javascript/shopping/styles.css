@@ -175,13 +175,13 @@ main {
                 align-items: center;
                 gap: 12px;
 
-                & p {
+                & .text {
                     color: var(--content-secondary);
 
                     font: var(--paragraph);
                 }
 
-                & input[type="checkbox"] {
+                & .checkbox[type="checkbox"] {
                     appearance: none;
 
                     position: relative;
@@ -193,17 +193,17 @@ main {
                     border-radius: 6px;
                 }
 
-                & input[type="checkbox"]:hover {
+                & .checkbox[type="checkbox"]:hover {
                     border: 1px solid var(--border-hover);
                 }
 
-                & input[type="checkbox"]:checked {
+                & .checkbox[type="checkbox"]:checked {
                     transition: 0.5s;
 
                     background-color: var(--color-brand);
                 }
 
-                & input[type="checkbox"]:checked::after {
+                & .checkbox[type="checkbox"]:checked::after {
                     content: "✔";
                     color: white;
                     font-size: 10px;
@@ -237,6 +237,8 @@ main {
         border-radius: 12px;
 
         padding: 12px;
+
+        display: none;
 
         & .left {
             display: flex;
